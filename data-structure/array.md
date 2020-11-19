@@ -34,6 +34,7 @@
 
 283.move-zeroes
 
-70.climbing-stairs
+[70.climbing-stairs]: ../leetcode/0070-climbing-stairs.md
 
 15.3sum
+
