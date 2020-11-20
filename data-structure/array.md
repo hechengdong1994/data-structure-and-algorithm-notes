@@ -32,8 +32,7 @@
 
 11.container-with-most-water
 
-283.move-zeroes
-
+[283.move-zeroes]: ../leetcode/0283-move-zeroes.md
 [70.climbing-stairs]: ../leetcode/0070-climbing-stairs.md
 
 15.3sum
