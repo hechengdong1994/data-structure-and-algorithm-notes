@@ -35,5 +35,5 @@
 [283.move-zeroes]: ../leetcode/0283-move-zeroes.md
 [70.climbing-stairs]: ../leetcode/0070-climbing-stairs.md
 
-15.3sum
+[15.3sum]: ../leetcode/0015-3sum.md
 
