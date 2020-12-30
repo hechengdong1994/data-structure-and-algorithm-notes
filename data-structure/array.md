@@ -36,3 +36,5 @@
 
 [15.3sum]: ../leetcode/0015-3sum.md
 
+[1.two-sum]: ../leetcode/0001-two-sum.md
+
