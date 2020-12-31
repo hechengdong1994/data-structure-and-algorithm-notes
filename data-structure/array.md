@@ -38,3 +38,5 @@
 
 [1.two-sum]: ../leetcode/0001-two-sum.md
 
+[26.remove-duplicates-from-sorted-array]: ../leetcode/0026-remove-duplicates-from-sorted-array.md
+
