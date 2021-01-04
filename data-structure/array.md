@@ -40,3 +40,5 @@
 
 [26.remove-duplicates-from-sorted-array]: ../leetcode/0026-remove-duplicates-from-sorted-array.md
 
+[88.merge-sorted-array]: ../leetcode/0088-merge-sorted-array.md
+
