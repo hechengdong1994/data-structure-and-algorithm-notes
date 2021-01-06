@@ -42,3 +42,5 @@
 
 [88.merge-sorted-array]: ../leetcode/0088-merge-sorted-array.md
 
+[66.plus-one]: ../leetcode/0066-plus-one.md
+
