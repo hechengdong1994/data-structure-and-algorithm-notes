@@ -44,3 +44,5 @@
 
 [66.plus-one]: ../leetcode/0066-plus-one.md
 
+[189.rotate-array]: ../leetcode/0189-rotate-array.md
+
