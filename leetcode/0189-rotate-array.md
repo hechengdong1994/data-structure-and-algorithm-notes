@@ -50,3 +50,78 @@ public void rotate(int[] nums, int k) {
 
 经过该优化后，依然借助内置arraycope函数，但因为没有进行多次循环，因此运行的速率得到明显提升。在此算法下，时间复杂度降低为O(arraycopy(n)+arraycopy(k))，但空间复杂度提升到O(k)。
 
+## 2 环状替换
+
+算法流程：
+
+1. 对k进行取余修正
+2. 从数组的第一个元素开始，进入外循环，直到操作次数与数组元素个数相同，退出循环
+   1. 计算该元素经过旋转后的索引
+   2. 临时保存新索引的元素
+   3. 将该元素放到新位置，操作次数+1
+   4. 继续对新位置的元素，重复上述操作，直到计算出的新索引与初始索引相同，退出内循环
+
+```java
+public void rotate(int[] nums, int k) {
+    k %= nums.length;
+    if (k == 0) {
+        return;
+    }
+    int count = 0;
+    // 从数组的第一个元素开始，直到操作次数与数组元素个数相同
+    for (int start = 0; count < nums.length; start++) {
+        // 内循环从当前起始元素开始
+        int i = start;
+        int current = nums[i];
+        do {
+            // 计算旋转k次后的索引
+            i = (i + k) % nums.length;
+            // 保存目标索引上的元素
+            int temp = current;
+            // 当前处理元素移动
+            current = nums[i];
+            nums[i] = temp;
+            // 操作次数+1
+            count++;
+            // 当前元素索引与初始索引相同时，结束内循环
+        } while (i != start);
+    }
+}
+```
+
+该方法中的对count==nums.length即完成所有交换的判断，其依据在于，每一次的有效交换，都有一个元素被放到了经过k次旋转后最终正确的位置上，因此，只需要进行nums.length次有效交换，就表示所有的元素都已经在最终正确的位置上了。对每次的内循环，当索引与其实索引不同时的交换均为有效交换。
+
+该方法的时间复杂度为O(n)，因为所有的元素仅遍历了一次；空间复杂度为O(1)，因为仅额外适用了固定大小的临时变量。
+
+## 3 数组翻转
+
+算法流程
+
+1. 翻转原数组
+2. 翻转0到k-1的元素
+3. 翻转k到length-1的元素
+
+```java
+public void rotate(int[] nums, int k) {
+    k %= nums.length;
+    if (k == 0) {
+        return;
+    }
+    // 翻转原数组
+    revert(nums, 0, nums.length - 1);
+    // 翻转0到k-1的元素
+    revert(nums, 0, k - 1);
+    // 翻转看到length-1的元素
+    revert(nums, k, nums.length - 1);
+}
+
+private void revert(int[] nums, int left, int right) {
+    for (; left < right; left++, right--) {
+        int temp = nums[left];
+        nums[left] = nums[right];
+        nums[right] = temp;
+    }
+}
+```
+
+该方法的时间复杂度为O(2n)，因为遍历了两次数组；空间复杂度为O(1)，因为仅额外适用了固定大小的临时变量。
