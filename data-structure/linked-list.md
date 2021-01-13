@@ -27,3 +27,6 @@
 ## 3 相关问题
 
 [21.merge-two-sorted-lists]: ../leetcode/0021-merge-two-sorted-lists.md
+
+[206.reverse-linked-list]: ../leetcode/0206-reverse-linked-list.md
+
