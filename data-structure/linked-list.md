@@ -30,3 +30,5 @@
 
 [206.reverse-linked-list]: ../leetcode/0206-reverse-linked-list.md
 
+[24.swap-nodes-in-pairs]: ../leetcode/0024-swap-nodes-in-pairs.md
+
