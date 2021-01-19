@@ -32,3 +32,5 @@
 
 [24.swap-nodes-in-pairs]: ../leetcode/0024-swap-nodes-in-pairs.md
 
+[141.linked-list-cycle]: ../leetcode/0141-linked-list-cycle.md
+
