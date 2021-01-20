@@ -30,19 +30,21 @@
 
 ## 3 相关问题
 
-[11.container-with-most-water]: ../leetcode/0011-container-with-most-water.md
-[283.move-zeroes]: ../leetcode/0283-move-zeroes.md
-[70.climbing-stairs]: ../leetcode/0070-climbing-stairs.md
+[11.container-with-most-water](../leetcode/0011-container-with-most-water.md)
 
-[15.3sum]: ../leetcode/0015-3sum.md
+[283.move-zeroes](../leetcode/0283-move-zeroes.md)
 
-[1.two-sum]: ../leetcode/0001-two-sum.md
+[70.climbing-stairs](../leetcode/0070-climbing-stairs.md)
 
-[26.remove-duplicates-from-sorted-array]: ../leetcode/0026-remove-duplicates-from-sorted-array.md
+[15.3sum](../leetcode/0015-3sum.md)
 
-[88.merge-sorted-array]: ../leetcode/0088-merge-sorted-array.md
+[1.two-sum](../leetcode/0001-two-sum.md)
 
-[66.plus-one]: ../leetcode/0066-plus-one.md
+[26.remove-duplicates-from-sorted-array](../leetcode/0026-remove-duplicates-from-sorted-array.md)
 
-[189.rotate-array]: ../leetcode/0189-rotate-array.md
+[88.merge-sorted-array](../leetcode/0088-merge-sorted-array.md)
+
+[66.plus-one](../leetcode/0066-plus-one.md)
+
+[189.rotate-array](../leetcode/0189-rotate-array.md)
 
