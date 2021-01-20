@@ -26,14 +26,14 @@
 
 ## 3 相关问题
 
-[21.merge-two-sorted-lists]: ../leetcode/0021-merge-two-sorted-lists.md
+[21.merge-two-sorted-lists](../leetcode/0021-merge-two-sorted-lists.md)
 
-[206.reverse-linked-list]: ../leetcode/0206-reverse-linked-list.md
+[206.reverse-linked-list](../leetcode/0206-reverse-linked-list.md)
 
-[24.swap-nodes-in-pairs]: ../leetcode/0024-swap-nodes-in-pairs.md
+[24.swap-nodes-in-pairs](../leetcode/0024-swap-nodes-in-pairs.md)
 
-[141.linked-list-cycle]: ../leetcode/0141-linked-list-cycle.md
+[141.linked-list-cycle](../leetcode/0141-linked-list-cycle.md)
 
-[142.linked-list-cycle-ii]: ../leetcode/0142-linked-list-cycle-ii.md
+[142.linked-list-cycle-ii](../leetcode/0142-linked-list-cycle-ii.md)
 
  
