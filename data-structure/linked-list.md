@@ -34,3 +34,6 @@
 
 [141.linked-list-cycle]: ../leetcode/0141-linked-list-cycle.md
 
+[142.linked-list-cycle-ii]: ../leetcode/0142-linked-list-cycle-ii.md
+
+ 
